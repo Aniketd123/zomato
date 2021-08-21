@@ -1,0 +1,25 @@
+
+@media(min-width:768px)
+{
+.mobile{
+ color: rgb(79, 85, 85);
+}
+.tablet{
+    color: rgb(211, 211, 100);
+    display: none;
+}
+
+}
+
+@media(min-width:1024px)
+{
+.mobile{
+ color: teal;
+}
+.tablet{
+    color: yellow;
+}
+
+}
+
+

@@ -1,0 +1,33 @@
+.btn{
+
+    background-color: red;
+    color: white;
+}
+.btn:hover{
+    background-color: yellow;
+    color: violet;
+}
+.btn:active{
+    background-color: teal;
+    color: blue;
+}
+.btn:focus{
+    background-color: green;
+    color: black;
+}
+.p
+{
+
+    color: blue;
+}
+
+.p::after{
+    content: "my name is aniket and iam 20years old";
+    color: red;
+}
+.p::before{
+    content: "hello, ";
+}
+.p::selection{
+    background-color: rgb(12, 5, 1);
+}
